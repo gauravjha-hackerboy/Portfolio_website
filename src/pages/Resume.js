@@ -359,8 +359,8 @@ Best regards,
                 <button
                   onClick={() => {
                     const link = document.createElement("a");
-                    link.href = "/Gaurav_Kumar_Jha_Resume.pdf";
-                    link.download = "Gaurav_Kumar_Jha_Resume.pdf";
+                    link.href = "/Gaurav_kumar_Jha_Resume.pdf";
+                    link.download = "Gaurav_kumar_Jha_Resume.pdf";
                     link.click();
                   }}
                   className="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2"
