@@ -359,7 +359,7 @@ Best regards,
                 <button
                   onClick={() => {
                     const link = document.createElement("a");
-                    link.href = "Gaurav_kumar_Jha_Resume.pdf";
+                    link.href = "https://drive.google.com/file/d/1fNqQLm6vF8_dpRl7-9GQTVQ0t0mlzgKC/view?usp=drive_link";
                     link.download = "Gaurav_kumar_Jha_Resume.pdf";
                     link.click();
                   }}
