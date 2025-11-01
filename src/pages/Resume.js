@@ -61,7 +61,7 @@ const Resume = () => {
     {
       title: "AI Chatbot",
       period: "Oct 2023 - Dec 2023",
-      tech: "HTML, CSS, MySQL, php, JavaScript, Xampp, phpMyAdmin",
+      tech: "HTML, CSS, MySQL, PHP, JavaScript, Xampp, phpMyAdmin",
       status: "Completed",
     },
     {
@@ -120,8 +120,8 @@ const Resume = () => {
         {/* Download Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <motion.button
-          {/* onClick={() => setShowPDFViewer(true)}*/}
-            onclick ={() => (window.location.href = "https://example.com/")}
+          onClick={() => setShowPDFViewer(true)}
+{/* onclick ={() => (window.location.href = "https://example.com/")}*/}
             className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-300 flex items-center justify-center gap-2"
             initial={{ x: -dir2.x, y: -dir2.y, opacity: 0 }}
             animate={{ x: 0, y: 0, opacity: 1 }}
@@ -197,7 +197,7 @@ Best regards,
               <div>
                 <h4 className="font-semibold mb-2 text-blue-400">Education</h4>
                 <p className="text-gray-300">
-                  BTech Computer Science & Engineering
+                  B.Tech Computer Science & Engineering
                 </p>
                 <p className="text-sm text-gray-400">
                   Panipat Institute of Engineering and Technology (2025)
@@ -360,7 +360,7 @@ Best regards,
                 <button
                   onClick={() => {
                     const link = document.createElement("a");
-                    link.href = "/Gaurav_kumar_Jha_Resume.pdf";
+                    link.href = "Gaurav_kumar_Jha_Resume.pdf";
                     link.download = "Gaurav_kumar_Jha_Resume.pdf";
                     link.click();
                   }}
