@@ -120,8 +120,7 @@ const Resume = () => {
         {/* Download Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <motion.button
-          onClick={() => setShowPDFViewer(true)}
-{/* onclick ={() => (window.location.href = "https://example.com/")}*/}
+            onClick={() => setShowPDFViewer(true)}
             className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-300 flex items-center justify-center gap-2"
             initial={{ x: -dir2.x, y: -dir2.y, opacity: 0 }}
             animate={{ x: 0, y: 0, opacity: 1 }}
