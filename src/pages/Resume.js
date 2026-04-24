@@ -21,7 +21,7 @@ const Resume = () => {
     languages: ["C/C++", "JavaScript", "Java"],
     frontend: ["HTML", "CSS", "React", "Next.js"],
     backend: ["Node.js", "Express.js", "REST API", "php"],
-    database: ["MySQL", "MongoDB"],
+    database: ["MySQL", "MongoDB", "PostgreSQL"],
     cloud: ["Docker", "Kubernetes", "CI/CD"],
     tools: ["VS Code", "Git", "Postman", "IntelliJ"],
   };
